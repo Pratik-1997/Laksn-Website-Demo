@@ -1,0 +1,1098 @@
+
+body {
+color: #444;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+background:#fff;
+overflow-x:hidden;
+}
+html,
+body { height: 100% }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1d293e;
+    font-weight: 600;
+}
+a {
+	font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+/* ----- ----- ----- */
+
+.copyright{
+    color: white;
+    background-color: #1D293E;
+}
+
+.partners{
+    background-color: #0F3460;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* Contact Form Section Map */
+/* Contact Form Section Map */
+
+
+.contactform{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ 
+ .contactform .btn{
+     background-color: #25CEF7;
+     border: none;
+     color:white;
+     padding: 20px 55px;
+     border-radius: 35px;
+     font-weight:bold;
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-bottom: 30px;
+     outline: none;
+    
+ }
+ 
+ 
+ .contactform .btn:focus {
+      outline:none; 
+ } 
+ 
+ .contactform .form-control{
+     margin-bottom: 20px;
+ 
+ }
+ 
+ .contactform #contact-form input{
+     outline: 0;
+     border: none;
+  
+ }
+ 
+ 
+ .contactform .row .main{
+     font-size: 70px;
+     padding-left: 20px;
+ }
+ 
+ .contactform .row .mainpara{
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+ 
+ .contactform .row .mainlogo{
+     border-radius: 50%;
+     padding: 10px 10px;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     margin-bottom: 30px;
+ 
+ }
+ 
+ .contactform .row .fa-facebook{
+     background-color: #1958A2;
+ }
+ 
+ .contactform .row .fa-twitter {
+     background-color: #0DBAE0;
+ }
+ 
+ 
+ .contactform .row .fa-linkedin-in{
+     background-color:#1958A2 ;
+ }
+ 
+ .contactform .row .fa-instagram{
+     background-color: #B5805C;
+ }
+ 
+ .contactform .row .fa-youtube{
+     background-color: #E21C17;
+ }
+ 
+
+ /* Contact cards Section */
+/* Contact cards Section */
+/* Contact cards Section */
+/* Contact cards Section */
+
+.card{
+    border: 1px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardcontact{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.topcards .new{
+    padding-bottom: 50px;
+    font-size: 30px;
+    padding-top: 80px;
+}
+.topcards h3  .special{
+    color: #5abee9;
+}
+
+.cardcontact .row .card-title{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+
+
+/*  Top cards Section */
+/*  Top cards Section */
+/*  Top cards Section */
+/*  Top cards Section */
+
+
+.topcards h2{
+    color:#232936;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: normal;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.topcards .card .card-block img{
+    margin: auto;
+    border-radius: 50%;
+     
+ }
+ 
+ .topcards .c1, .c2 , .c3 , .c4{
+    border:none;
+    border-radius: 7px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  
+ }
+
+.topcards .c1{
+    background-color: #0DA3FA;  
+ }
+
+ .topcards .c1 .card-block .fas{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+
+ .topcards .c2{
+    background-color: #0F3460;
+ }
+
+ .topcards .c2 .card-block .fas{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+ .topcards .c3{
+    background-color: #2BA46E;
+ }
+
+ .topcards .c3 .card-block .fab{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+
+ .topcards .c4{
+    background-color: #F54391;
+ }
+
+ .topcards .c4 .card-block .far{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+
+ .topcards .card .card-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+ }
+
+ .topcards .card .card-title h4{
+   color: white;
+}
+
+ .topcards .card .card-text{
+    padding-right: 45px;
+    padding-left: 45px;
+    color: white;
+ }
+
+ /* Now Available Section */ 
+/* Now Available Section */ 
+
+.appstores {
+    background-color: #0F3460;
+    height: 280px;
+}
+
+.appstores h2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.appstores .row .btn {
+    background-color: #25CEF7;
+    border: none;
+    color:white;
+    padding: 20px 55px;
+    border-radius: 35px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.appstores .row .btn:focus {
+     outline:none; 
+} 
+
+.appstores .row .playstore{
+    background-color: white;
+}
+
+
+
+/* Check out what clients Say Section */
+/* Check out what clients Say Section */
+/* Check out what clients Say Section */
+/* Check out what clients Say Section */
+
+
+.clientsay{
+    background-image: url("../img/bg/testimonial-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: alpha(opacity=80);
+    height: auto;
+}
+
+  
+
+.clientsay .container .row .rightpanel {  
+    background-color: white;
+    margin-top:80px;
+    margin-bottom: 130px;
+}
+
+.clientsay .container .row .rightpanel .test1{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+  
+.clientsay .container .row .leftpanel .leftpanelhead {
+    color:white;
+    text-align: start;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 56px;
+    padding-top: 150px;
+}
+  
+.clientsay .container .row .leftpanel .leftpanelpara{
+    color:white;
+    padding-bottom: 150px;
+}
+
+.clientsay .container .row .rightpanel img,h3,p { 
+    margin-left: 30px;
+}
+
+.clientsay .container .row .rightpanel .fas{
+    color:gold;
+    margin-right: 2px;
+    padding-bottom: 40px;
+}
+
+
+
+/* Affordable Pricing Section */
+/* Affordable Pricing Section */
+/* Affordable Pricing Section */
+/* Affordable Pricing Section */
+
+
+.apricing{
+    background-color: #1D293F;
+}
+
+.apricing .card{
+    border-radius: 4px;
+}
+
+.apricing .topcards h3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.apricing .topcards .c1x{
+    background-color: white;     
+}
+
+.apricing .topcards .c1xspc{
+    background-color: #19A1EA;
+}
+
+.apricing .topcards .c1xspc .card-block .card-title h4,
+.apricing .topcards .c1xspc .card-block .fas-cirlce,
+.apricing .topcards .c1xspc .card-block .card-text
+{
+    color:white !important;
+}
+
+.apricing .topcards .c1x .card-block .card-text{
+    color:#202C3D;
+}
+
+.apricing .topcards .c1x .card-block .card-title h4{
+    color:#202C3D;
+    font-size: 26px;
+    padding-top: 30px;
+}
+
+.apricing .topcards .c1x .card-block .card-title p{
+    color:#19A1EA;
+    font-size: 6px;
+    margin: auto;
+}
+
+.apricing .topcards .c1x .card-block .card-title p .fas{
+    padding-right: 2px;
+}
+
+.apricing .btn {
+    background-color: #25CEF7;
+    border: none;
+    color:white;
+    padding: 20px 55px;
+    border-radius: 35px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+
+.apricing .btn:focus { 
+    outline:none;
+} 
+
+.apricing .topcards .c1x .card-block .price{
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.apricing .topcards .c1x .card-block .pricemonth{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 30px;
+            }
+
+/* Amazing Features Section */
+/* Amazing Features Section */
+/* Amazing Features Section */
+/* Amazing Features Section */
+
+.amazingfeatures{
+    background-image: url(../img/bg/bg-elements_4.png);
+    height: 600px;
+}
+
+.amazingfeatures h2{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.amazingfeatures h2  .special{
+  color: #5abee9;
+}
+
+@media screen and (max-width: 767px){
+  .amazingfeatures{
+      height: 1300px;
+      padding-bottom: 1400px;
+  }
+}
+
+.amazingfeatures .topcards .row .c1{
+    background-color: white;
+}
+
+.amazingfeatures .topcards .row .c1 .logo{
+        background-color: #0DA3FA;
+        position: relative;
+        top: -60px;
+        padding: 20px;
+        left: 20px;
+    }
+
+.amazingfeatures .topcards .row .c1 .logo .fas{
+        border-radius: 10px;
+        font-size: 25px;
+        color:white;
+}
+
+.amazingfeatures .topcards .row .c1 .logo .far{
+        border-radius: 10px;
+        font-size: 25px;
+        color:white;
+}
+
+
+.amazingfeatures .topcards .row .c1 .card-title h4{
+        color: #232437;
+}
+
+.amazingfeatures .topcards .row .c1 .card-text{
+        color: #232437;
+}
+
+.amazingfeatures .topcards .row .c1 .card-title{
+       color: #232437;
+}
+
+
+
+/* Video Section */ 
+/* Video Section */ 
+/* Video Section */ 
+/* Video Section */ 
+
+.video{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.video .leftpane{
+    padding-left: 20px;
+}
+
+.video .row .imgvid{
+    max-width: 100%;
+    height: auto;
+}
+
+.video .row .spc{
+    padding-top: 20px;
+}
+ 
+.video .row .fas {
+    font-size: 30px;
+    color:#25CEF7;
+    padding-top: 10px;
+}
+
+.video .row .special .fas{
+    color: #5abee9;
+    font-size: 50px;
+}
+
+.video .row  .watchv{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.video .row  .watchv:hover{
+    color:rgb(68, 122, 240);
+}
+
+
+/* Screenshot section  */
+/* Screenshot section  */
+/* Screenshot section  */
+/* Screenshot section  */
+
+.screenshot{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.screenshot h2{
+    padding-bottom: 30px;
+}
+.screenshot h2  .special{
+    color: #5abee9;
+}
+
+.screenshot .row .screenshotn{
+    width: 100%;
+        height: auto;
+        padding-top: 20px;
+}
+
+@media screen and (max-width:990px){
+    .screenshot .row .screenshotn{
+        
+        padding: 20px 50px;
+    }
+}
+
+
+
+
+/* Mockup 1 2 section  */
+/* Mockup 1 2 section  */
+/* Mockup 1 2 section  */
+/* Mockup 1 2 section  */
+
+.SimpleWay{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.SimpleWay .mockup {
+        max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+}
+
+@media screen and (max-width:700px){
+    .SimpleWay {
+       margin-top: 150px;
+    }
+}
+
+.SimpleWay .row .fas{
+    background-color: rgb(28, 152, 253);
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 25px;
+    font-size: 24px;
+    margin-top: 150px;
+}
+
+
+.SimpleWay .row h1{
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.SimpleWay .row p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.SimpleWay .row button{
+    background-color: #25CEF7;
+    border: none;
+    color:white;
+    padding: 20px 55px;
+    border-radius: 35px;
+    font-weight:bold;
+}
+
+.SimpleWay .row button:focus { outline:none; } 
+
+
+.SimpleWay .mockup2{
+
+    max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+}
+
+
+
+
+/* Amazing Features Section */
+/* Amazing Features Section */
+/* Amazing Features Section */
+/* Amazing Features Section */
+
+.amazingfeatures{
+    background-image: url(../img/bg/bg-elements_4.png);
+    height: 600px;
+}
+
+.amazingfeatures h2{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.amazingfeatures h2  .special{
+  color: #5abee9;
+}
+
+@media screen and (max-width: 767px){
+  .amazingfeatures{
+      height: 1300px;
+      padding-bottom: 1400px;
+  }
+}
+
+.amazingfeatures .topcards .row .c1{
+    background-color: white;
+}
+
+.amazingfeatures .topcards .row .c1 .logo{
+        background-color: #0DA3FA;
+        position: relative;
+        top: -60px;
+        padding: 20px;
+        left: 20px;
+    }
+
+.amazingfeatures .topcards .row .c1 .logo .fas{
+        border-radius: 10px;
+        font-size: 25px;
+        color:white;
+}
+
+.amazingfeatures .topcards .row .c1 .logo .far{
+        border-radius: 10px;
+        font-size: 25px;
+        color:white;
+}
+
+
+.amazingfeatures .topcards .row .c1 .card-title h4{
+        color: #232437;
+}
+
+.amazingfeatures .topcards .row .c1 .card-text{
+        color: #232437;
+}
+
+.amazingfeatures .topcards .row .c1 .card-title{
+       color: #232437;
+}
+
+
+
+/* Mockup 1 2 section  */
+/* Mockup 1 2 section  */
+/* Mockup 1 2 section  */
+/* Mockup 1 2 section  */
+
+.SimpleWay{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.SimpleWay .mockup {
+        max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+}
+
+@media screen and (max-width:700px){
+    .SimpleWay {
+       margin-top: 150px;
+    }
+}
+
+.SimpleWay .row .fas{
+    background-color: rgb(28, 152, 253);
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 25px;
+    font-size: 24px;
+    margin-top: 150px;
+}
+
+
+.SimpleWay .row h1{
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.SimpleWay .row p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.SimpleWay .row button{
+    background-color: #25CEF7;
+    border: none;
+    color:white;
+    padding: 20px 55px;
+    border-radius: 35px;
+    font-weight:bold;
+}
+
+.SimpleWay .row button:focus { outline:none; } 
+
+
+.SimpleWay .mockup2{
+
+    max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+}
+
+/* Main cover */
+/* Main cover */
+/* Main cover */
+
+
+
+
+/* home section */
+/* home section */
+/* home section */
+ .home-section{
+ 	min-height: 100vh;
+ 	background-image: url('../img/bg/home-bg.jpg');
+ 	background-size: cover;
+ 	background-position: center;
+ 	position: relative;
+ 	z-index: 1;
+ 	padding:0 15px;
+ }
+.home-section:before{
+	content: '';
+	position: absolute;
+	box-sizing: border-box;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	background-color: #000000;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.home-section .row{
+	min-height: 100vh;
+}
+
+.home-section img{
+
+    position: absolute;
+    top: 235px;
+}
+
+.home-section h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.home-section p{
+    color: white;
+    margin-left: 300px;
+    font-size: 18px;
+}
+
+.home-section .btn{
+    background-color: #25CEF7;
+    border: none;
+    color:white;
+    padding: 20px 55px;
+    border-radius: 35px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    outline: none;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.home-section .btn:focus {
+    outline:none; 
+} 
+@media screen and (max-width: 1397px)
+{
+    .home-section h1{
+        font-size: 50px;
+    }
+    .home-section p{
+        color: white;
+        margin-left: 300px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1200px)
+{
+    .home-section h1{
+        font-size: 50px;
+        margin-left: 200px;
+    }
+    .home-section p{
+        color: white;
+       
+        font-size: 14px;
+        margin-left: 200px;
+    }
+
+    .home-section .btn{
+    margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 879px)
+{
+    .home-section h1{
+        font-size: 50px;
+        margin-left: 100px;
+    }
+    .home-section p{
+        color: white;
+       
+        font-size: 14px;
+        margin-left: 100px;
+    }
+
+    .home-section .btn{
+    margin-left: 100px;
+    }
+}
+
+
+@media screen and (max-width: 554px)
+{
+    .home-section h1{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1200px)
+{
+    .home-section img{
+
+        width: 400px;
+        top: 335px;
+    }
+}
+
+@media screen and (max-width: 990px)
+{
+    .home-section img{
+        top: 55px;
+        left: 300px;
+        width: 400px;
+        margin-bottom: 200px ;
+    }
+}
+
+@media screen and (max-width: 706px)
+{
+    .home-section img{
+        top: 105px;
+        left: 200px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 554px)
+{
+    .home-section img{
+        top: 45px;
+        left: 120px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .home-section img{
+        top: 105px;
+        left: 130px;
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 428px)
+{
+    .home-section img{
+        top: 257px;
+        left: 100px;
+        width: 300px;
+    }
+}
+
+/* home section *//* home section */
+/* home section *//* home section */
+
+/* topcards *//* topcards *//* topcards */
+/* topcards *//* topcards *//* topcards */
+/* topcards *//* topcards *//* topcards */
+
+
+/*  Top cards Section */
+/*  Top cards Section */
+/*  Top cards Section */
+/*  Top cards Section */
+
+
+.topcards h2{
+    color:#232936;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: normal;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 991px){
+    .topcards h2{
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 947px){
+    .topcards h2{
+        margin-top: 320px;
+    }
+}
+
+@media screen and (max-width: 473px){
+    .topcards h2{
+        margin-top: 360px;
+    }
+}
+
+@media screen and (max-width: 473px){
+    .topcards h2{
+        margin-top: 360px;
+    }
+}
+
+.topcards .card .card-block img{
+    margin: auto;
+    border-radius: 50%;
+     
+ }
+ 
+ .topcards .c1, .c2 , .c3 , .c4{
+    border:none;
+    border-radius: 7px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  
+ }
+
+.topcards .c1{
+    background-color: #0DA3FA;  
+ }
+
+ .topcards .c1 .card-block .fas{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+
+ .topcards .c2{
+    background-color: #0F3460;
+ }
+
+ .topcards .c2 .card-block .fas{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+ .topcards .c3{
+    background-color: #2BA46E;
+ }
+
+ .topcards .c3 .card-block .fab{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+
+ .topcards .c4{
+    background-color: #F54391;
+ }
+
+ .topcards .c4 .card-block .far{
+    background-color: white;
+    border-radius: 50%;
+    color: #A4E1EB;
+    padding: 15px;
+ }
+
+ .topcards .card .card-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+ }
+
+ .topcards .card .card-title h4{
+   color: white;
+}
+
+ .topcards .card .card-text{
+    padding-right: 45px;
+    padding-left: 45px;
+    color: white;
+ }
+
+
+/* topcards *//* topcards *//* topcards */
+/* topcards *//* topcards *//* topcards */
+/* topcards *//* topcards *//* topcards */

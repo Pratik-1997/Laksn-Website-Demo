@@ -910,8 +910,32 @@ fieldset {
     }
 }
 
+@media screen and (max-width: 450px)
+{
+    .home-section h1{
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
 
 
+@media screen and (max-width: 450px)
+{
+    .home-section p{
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (min-width: 1200px)
+{
+    .home-section img{
+
+        width: 400px;
+        top: 335px;
+    }
+}
 
 
 @media screen and (max-width: 1200px)
@@ -960,11 +984,19 @@ fieldset {
     }
 }
 
+@media screen and (max-width: 490px)
+{
+    .home-section img{
+        top: 105px;
+        left: 130px;
+        width: 300px;
+    }
+}
 
 @media screen and (max-width: 428px)
 {
     .home-section img{
-        top: 257px;
+        top: 37px;
         left: 100px;
         width: 300px;
     }
@@ -1006,18 +1038,25 @@ fieldset {
         margin-top: 320px;
     }
 }
-
-@media screen and (max-width: 473px){
+@media screen and (max-width: 600px){
     .topcards h2{
-        margin-top: 360px;
+        margin-top: 300px;
     }
 }
 
+
 @media screen and (max-width: 473px){
     .topcards h2{
-        margin-top: 360px;
+        margin-top: 100px;
     }
 }
+
+@media screen and (max-width: 420px){
+    .topcards h2{
+        margin-top: 100px;
+    }
+}
+
 
 .topcards .card .card-block img{
     margin: auto;
@@ -1096,3 +1135,7 @@ fieldset {
 /* topcards *//* topcards *//* topcards */
 /* topcards *//* topcards *//* topcards */
 /* topcards *//* topcards *//* topcards */
+
+.navbar-default{
+    background-color: #ffffff00 !important;
+}
